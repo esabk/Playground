@@ -1,0 +1,12 @@
+body{
+    background-color: bisque;
+    color: rgb(182, 37, 37,1);
+    text-align:center;
+    animation: opacity_h1 1990ms  infinite;
+    animation-delay: 2000ms;
+}
+@keyframes opacity_h1 {
+    0%{color: rgb(182, 37, 37,0.25)}
+    50%{color: rgb(182, 37, 37,1)}
+    100%{color: rgb(182, 37, 37,0.25)}
+}

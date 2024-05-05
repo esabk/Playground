@@ -1,0 +1,16 @@
+html{
+    cursor: none;
+}
+#point{
+    width:24px;
+    height: 24px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+}
+#point p{
+    position: relative;
+    left: 40px;
+    top: -50px;
+    width: 250px;
+}
